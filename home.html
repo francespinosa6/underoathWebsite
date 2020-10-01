@@ -4,56 +4,74 @@
         <title>UnderØath</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+    <section>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  <!-- Side bar funct.-->
+      <a href="home.html">About</a>
+      <a href="genre.html">Genre</a>
+      <a href="christianity.html">UØ & Christianity</a>
+      <a href="tour.html">Tour</a>
+      <a href="merch.html">Merch</a>   
+    </div>
+    </section>
     <body>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Genre</a>
-            <a href="#">UØ & Christianity</a>
-            <a href="#">Tour</a>
-            <a href="#">Merch</a>
-          </div>
-        <div id="main">
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-        <figure>
-            <img src="img/uoPic.jpg" alt="UnderoathPic">
-        </figure>
-        <article>
-            <h2>
-                About UnderØath
-            </h2>
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <article class="container">
+        <section>
+            <h1>
+                UnderØath
+            </h1>
             <p>
-                Underoath (stylized as Underøath or UnderOath) is an American rock band from Tampa, Florida. Founded by Dallas Taylor and Luke Morton on November 30, 1997, in Ocala, Florida; subsequently its additional members were from Tampa.
+                <b>Underoath </b>(stylized as Underøath or UnderOath) is an American rock band from Tampa, Florida. Founded by Dallas Taylor and Luke Morton on November 30, 1997, in Ocala, Florida; subsequently its additional members were from Tampa.
                 They released Act of Depression, Cries of the Past, and The Changing of Times with the band's original vocalist Dallas Taylor. Following his departure, Spencer Chamberlain became lead vocalist. 
-            </p>
-            <p>
+            <br><br>
                 The band then released They're Only Chasing Safety and Define the Great Line, gaining a certified gold rating for both. These two albums have given them more mainstream and commercial success. 
                 They have received three Grammy nominations in 2007, 2010 and 2019 respectively and have recorded a live CD/DVD box set entitled Survive, Kaleidoscope, which was released on May 27, 2008. The band then released They're Only Chasing Safety and Define the Great Line, 
                 gaining a certified gold rating for both.
-            </p>
-            <p>
+            <br><br>
                 From late February to early May, the band recorded their sixth studio album entitled Lost in the Sound of Separation, which was released on September 2, 2008, and peaked at number 8 on the Billboard 200. Their seventh album, Ø (Disambiguation), 
                 was released on November 9, 2010. It was, to date, the only Underoath release without the band's last original member, drummer and vocalist Aaron Gillespie, who had parted ways with the band earlier in the year.
             </p>
+        <section id="carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <figure class="item active">
+                        <img width="400" height="400" src="img/uoPic.jpg" alt="Underoath Pic" /> <!--img resizing imgs here, not in css file-->
+                    </figure>
+                    <figure class="item">
+                        <img width="400" height="400" src="img/uo1.jpg" alt="underoath Concert" />
+                    </figure>
+                    <figure class="item">
+                        <img width="400" height="400" src="img/uo2.png" alt="underoath at a concert" />
+                    </figure>
+                    <figure class="item">
+                      <img width="400" height="400" src="img/uo3.jpg" alt="more underoath pic" />
+                  </figure>
+                </div>
+        </section>
             <h2>
                 Hiatus and Reunion
             </h2>
             <p>
-                On October 2, 2012, Underoath announced that they would be disbanding in 2013.However, they announced their reunion on August 17, 2015.
+                On October 2, 2012, Underoath announced that they would be disbanding in 2013. However, they announced their reunion on August 17, 2015.
                 On February 22, 2018, Underoath announced their eighth studio album, Erase Me, would be released on April 6, 2018; their first album in 8 
                 years and their first in 10 years with founding drummer Aaron Gillespie. The first single was "On My Teeth."
             </p>
-        </article>   
-        </div>
-    <script type="text/javascript" src="js/script.js">  
-    </script>                                           <!-- javascript link-->
+        </section>
+        <footer>
+            <a href="https://www.instagram.com/underoathband/" target="_blank" class="fa fa-instagram"></a>        <!--Social media footer-->
+            <a href="https://twitter.com/underoathband?lang=en" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/underoath/?tn-str=k*F" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.youtube.com/channel/UCmeDeURJ8-s1WNoFL5bR10Q" class="fa fa-youtube" target="_blank"></a><br>
+        </footer>
+    </article>
+      </div>
+      <script type="text/javascript" src="js/script.js">  
+      </script>            
     </body>
-    <footer>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-youtube"></a><br>
-        Copyrights Francespinosa,LLC
-    </footer>
 </html>
