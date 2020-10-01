@@ -31,6 +31,7 @@ figcaption{
     background: yellowgreen !important;
     border: black !important;
     font-size: medium;
+    text-indent: 50px;
 }
 footer{                     
     text-align: center;
