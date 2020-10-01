@@ -1,0 +1,106 @@
+b{
+    color: #8B0000
+}
+span{
+    color: #8B0000;
+}
+h1,h2{                        /* for all pages*/
+    color: yellowgreen !important;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+.albums:hover,h1:hover,h2:hover{  /*when mouse is over then this gets executed*/
+    color: #8B0000 !important;
+    text-decoration: line-through;
+    font-weight: 100pt;
+}
+figcaption{
+    font-weight: bolder;
+    font-size: medium;
+    color: yellowgreen
+}
+.homeBackground{              /* for all pages*/
+    background-color: black;
+}
+.well{                       /* for all pages*/
+    color: white;
+    text-align: justify;
+    background: yellowgreen !important;
+    border: black !important;
+    font-size: medium;
+}
+footer{                     
+    text-align: center;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: yellowgreen;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.fa {                                  
+    padding: 10px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+    border-radius: 60%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.carousel-inner {
+    text-align: center;
+}
+.carousel .item > img {
+    display: inline-block;
+    margin: auto;
+}
