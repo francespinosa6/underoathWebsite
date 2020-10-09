@@ -1,5 +1,5 @@
 b{
-    color: #8B0000
+    color: #8B0000;
 }
 span{
     color: #8B0000;
@@ -7,31 +7,101 @@ span{
 h1,h2{                        /* for all pages*/
     color: yellowgreen !important;
     text-align: center;
-    text-decoration: underline;
-    font-weight: bolder;
+    font-weight: 1000;
     font-size: xx-large;
-
+    font-family: blippo, fantasy !important;
 }
-.albums:hover,h1:hover,h2:hover{  /*when mouse is over then this gets executed*/
+h3{
+    color: #8B0000 !important;
+    font-weight: bolder !important;
+    text-align: center;
+}
+.merchHeading{
+    font-size: 42px;
+    background-color: black;
+    opacity: 0.93;
+}
+.hover:hover,span:hover{
     color: #8B0000 !important;
     text-decoration: line-through;
     font-weight: 100pt;
 }
 figcaption{
-    font-weight: bolder;
-    font-size: medium;
-    color: yellowgreen
+    font-weight: bolder !important;
+    font-size: large;
+    color: yellowgreen;
+    font-weight: 700;
+}
+.formBox{
+    box-sizing: border-box;
+}
+.shapeForm{
+    position: relative;
+    right: 0;
+    margin: 40px;
+    max-width: 400px;
+    padding: 78px;
+    background-color: white;
+    opacity: 0.79;
+    text-align: center;
+}                              /*class for form page*/
+.formPic{
+    background-image: url('https://i.ytimg.com/vi/WlDVOIO1rIA/maxresdefault.jpg');
+    min-height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .homeBackground{              /* for all pages*/
     background-color: black;
 }
+.merchBackground{
+    background-color: black;
+    background-image: url('https://cdn.shopify.com/s/files/1/0411/5166/0185/files/Dis-Erase-OBS_d5767490-b3de-49d2-ae24-b3e9ed16231d_1400x.gif?v=1598904304');  /* image of merch html*/
+    background-repeat: round;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.merchBack{
+    background-color: #8B0000;
+    border: ridge;
+    border-color: yellowgreen;
+    opacity: 0.93;
+}
 .well{                       /* for all pages*/
+    
     color: white;
+    font-weight: bolder;
     text-align: justify;
-    background: yellowgreen !important;
-    border: black !important;
+    border:black !important;
     font-size: medium;
     text-indent: 50px;
+    background-color: yellowgreen !important;
+    opacity: 0.88;
+}
+#genreImg{
+    background-image: url('https://specials-images.forbesimg.com/imageserve/5f11cefab7b73b0007811ef3/960x0.jpg?fit=scale');  /* image of genre html*/
+    background-repeat: round;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#homeImg{
+    background-image: url('https://i.redd.it/fdrb1ya6zma21.jpg');  /* image of home html*/
+    background-repeat: round;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tourImg{
+    background-image: url('https://i2.wp.com/mcusercontent.com/db1855ab84d45f76eff7f68dd/images/1a8599cc-a9d5-4861-bc1d-593d6faa17bd.jpeg?ssl=1');  /* image of tour html*/
+    background-repeat: round;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#christImg{
+    background-image: url('https://cutewallpaper.org/21/underoath-wallpaper/UNDEROATH-I-Gave-Up-Show-Visuals-on-Vimeo.jpg');  /* image of christianity html*/
+    background-repeat: no-repeat;
+    background-position: center;
 }
 footer{                     
     text-align: center;
@@ -46,13 +116,12 @@ footer{
     background-color: yellowgreen;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 40px;
   }
-  
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     color: black;
     display: block;
     transition: 0.3s;
@@ -60,7 +129,6 @@ footer{
   .sidenav a:hover {
     color: #f1f1f1;
   }
-  
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -80,28 +148,39 @@ footer{
 .fa:hover {
     opacity: 0.7;
 }
-  
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+    background: #8B0000;
+    color: yellowgreen;
 }
 .fa-youtube {
-    background: #bb0000;
-    color: white;
+    background: #8B0000;
+    color: yellowgreen;
 }
 .fa-instagram {
-    background: #125688;
-    color: white;
+    background: #8B0000;
+    color: yellowgreen;
 }
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+    background: #8B0000;
+    color: yellowgreen;
   }
 
 .carousel-inner {
     text-align: center;
 }
 .carousel .item > img {
-    display: inline-block;
+    display: inline-flex;
     margin: auto;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:#8B0000 !important;
+}
+.formBtn{
+    background-color: #8B0000;
+    color: yellowgreen;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+aside {
+    float: right;
 }
