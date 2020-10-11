@@ -8,8 +8,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>              <!--For all my HTMLs pages, JS file is imported at the bottom of each HTML page-->
-    <body class="homeBackground" id="homeImg">    <!--id for img background and class for color of background-->
+    </head>                                         <!--For all my HTMLs pages, JS file is imported at the bottom of each HTML page-->
+    <body class="homeBackground" id="homeImg">      <!--id for img background and class for color of background-->
         <section>
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  <!-- Side nav menu-->
@@ -22,7 +22,7 @@
               </div>
         </section>
       <div id="main">
-        <span style="font-size:30px;cursor: pointer;" onclick="openNav()">&#9776;<strong>Menu</strong></span> 
+        <span style="font-size:30px;cursor: pointer;" onclick="openNav()">&#9776;<strong>Menu</strong></span>    <!--to open nav menu-->
         <article class="container">
         <section>
             <h1>
@@ -46,19 +46,19 @@
         <section id="carousel" class="carousel slide" data-ride="carousel">  <!--carousel of imgs-->
                 <div class="carousel-inner" role="listbox">
                     <figure class="item active">
-                        <img width="450" height="450" src="img/uoPic.jpg" alt="Underoath Pic" /> <!--img resizing imgs here, not in css file-->
+                        <img style="width: 40%; height: 25%;" src="img/uoPic.jpg" alt="Underoath Pic" /> <!--img resizing imgs here, not in css file-->
                     </figure>
                     <figure class="item">
-                        <img width="450" height="450" src="img/uo4.jpeg" alt="all 4 team" />
+                        <img style="width: 40%; height: 25%;" src="img/uo4.jpeg" alt="all 4 team" />
                     </figure>
                     <figure class="item">
-                        <img width="450" height="450" src="img/uo1.jpg" alt="underoath Concert" />
+                        <img style="width: 40%; height: 25%;" src="img/uo1.jpg" alt="underoath Concert" />
                     </figure>
                     <figure class="item">
-                        <img width="450" height="450" src="img/uo2.png" alt="underoath at a concert" />
+                        <img style="width: 40%; height: 25%;" src="img/uo2.png" alt="underoath at a concert" />
                     </figure>
                     <figure class="item">
-                      <img width="450" height="450" src="img/uo3.jpg" alt="more underoath pic" />
+                      <img style="width: 40%; height: 25%;" src="img/uo3.jpg" alt="more underoath pic" />
                   </figure>
                 </div>
         </section>
@@ -81,7 +81,8 @@
             <a href="https://www.facebook.com/underoath/?tn-str=k*F" target="_blank" class="fa fa-facebook"></a>
             <a href="https://www.youtube.com/channel/UCmeDeURJ8-s1WNoFL5bR10Q" class="fa fa-youtube" target="_blank"></a><br>
         </footer>
-    </article>
+    </article>     <!--back to top button below-->
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top hover" role="button">Back to top <i class="glyphicon glyphicon-circle-arrow-up"></i></a>
     </div>
     <script type="text/javascript" src="js/script.js">      
     </script>                                               <!--Importing JS file-->

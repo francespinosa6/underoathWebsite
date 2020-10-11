@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="US-en">
-    <head>
+    <head>                                     <!--For all my HTMLs pages, JS file is imported at the bottom of each HTML page-->
         <title>UnderØath Tour</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/stylesheet.css">
@@ -8,8 +8,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>              <!--For all my HTMLs pages, JS file is imported at the bottom of each HTML page-->
-    <body class="homeBackground" id="tourImg">
+    </head>              
+    <body class="homeBackground" id="tourImg">  <!--class and id modifies the background-->
         <section>
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  <!-- Side nav menu-->
@@ -30,7 +30,7 @@
                 <p>
                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pastTourDates" aria-expanded="false" aria-controls="tourDates">
                   See Past Tour Dates
-                </button>
+                </button>                       <!--button that when you click displays hidden content-->
               </p>
               <div class="collapse" id="pastTourDates">
                 <div class="card card-body">
@@ -97,8 +97,9 @@
             <a href="https://www.facebook.com/underoath/?tn-str=k*F" target="_blank" class="fa fa-facebook"></a>
             <a href="https://www.youtube.com/channel/UCmeDeURJ8-s1WNoFL5bR10Q" class="fa fa-youtube" target="_blank"></a><br>
     </footer>
-        </article>
-    </div>
+        </article>                 <!--back to top button below-->
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top hover" role="button">Back to top <i class="glyphicon glyphicon-circle-arrow-up"></i></a>
+    </div>                         <!--JS file imported below-->
     <script type="text/javascript" src="js/script.js">  
     </script> 
     </body>
