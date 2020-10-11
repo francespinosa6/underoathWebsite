@@ -1,6 +1,6 @@
 # Underoath Website
 
-Name: Francisco J. Espinosa-Castillo </br>
+<strong>Name:</strong> Francisco J. Espinosa-Castillo </br>
 Description: The website provides information about the rock band UnderOath. Provides information about their music, concerts, merchandise, social media and news letter. </br>
 Details: 
     1- Main functionalities are the navigation menu on the left that takes you to any of the pages in this website.</br>
