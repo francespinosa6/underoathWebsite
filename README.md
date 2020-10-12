@@ -10,7 +10,7 @@
     5- There is a form on the newsletter page that you can type in the information that is asked and they are set to be required.</br>
     6- Home page as a picture carousel.</br>
     7- Tour page has a button that when clicked in displays past dates from the band's tour. </br>
-<strong>Technologies used: </strong> HTML, CSS, Bootstrap, Javascript,and Visual Studio Code. <br>
+<strong>Technologies used: </strong> HTML, CSS, Bootstrap, Javascript, GIT and Visual Studio Code. <br>
 <strong>Ideas for future improvement: </strong></br>
     -Have the back-to-top button fade in when the user is not at the top page.</br>
     -Create and actual store page.</br>
